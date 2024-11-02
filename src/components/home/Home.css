@@ -1,9 +1,9 @@
 .typing-element::after {
-    content: '|';              /* Cursor character */
-    animation: blink 0.7s step-end infinite; /* Blinking effect */
+    content: '|';            
+    animation: blink 0.7s step-end infinite; 
   }
   
-  /* CSS for the blinking cursor */
+  
   @keyframes blink {
     0%, 100% { opacity: 0.8; }
     50% { opacity: 0; }
