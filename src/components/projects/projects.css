@@ -3,7 +3,6 @@
     text-align: center;
     padding: 20px;
     gap: 40px;
-    background-color: rgb(160, 240, 200);
   }
   
   .projects-grid {
@@ -31,7 +30,7 @@
   }
   
   .project-icon .icon {
-    font-size: 2rem; /* Style the emoji or icon */
+    font-size: 2rem; 
   }
   
   .project-icon p {
@@ -44,6 +43,7 @@
     color: #0073e6;
   }
   
+  
   .project-icon.active {
     background-color: #0073e6;
     color: white;
@@ -51,7 +51,7 @@
   
   .project-details {
     margin-top: 20px;
-    background-color: #f9f9f9;
+    background-color: #01eb0c8b;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
