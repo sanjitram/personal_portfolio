@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@
     border-radius: 25px;
   }
   
-  /* Toggle Button */
+  
   #toggle {
     font-size: 24px;
     background: none;
@@ -35,7 +35,7 @@
     display: none;
   }
   
-  /* Desktop Nav Links */
+  
   .navlinks {
     display: flex;
     gap: 20px;
@@ -47,7 +47,7 @@
     font-size: 18px;
   }
   
-  /* Mobile Nav Links */
+  
   @media (max-width: 768px) {
     .navlinks {
       position: fixed;
