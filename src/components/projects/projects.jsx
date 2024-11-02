@@ -7,6 +7,7 @@ const projectsData = [
     title: 'Personal Portfolio',
     description: 'A front-end web application for a personal portfolio.',
     icon: '💻', 
+    link: 'https://github.com/sanjitram/personal_portfolio'
   },
   {
     id: 2,
@@ -35,6 +36,7 @@ const Projects = () => {
           >
             <span className="icon">{project.icon}</span>
             <p>{project.title}</p>
+            <a href={project.link}></a>
           </div>
         ))}
       </div>
