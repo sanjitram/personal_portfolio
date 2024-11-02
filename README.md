@@ -1,2 +1,4 @@
-#Personal portfolio website 
-https://personal-portfolio-six-mu-24.vercel.app/#contact
+<h2 align="center">
+  Personal Portfolio Project<br/>
+  <a href="https://personal-portfolio-six-mu-24.vercel.app/#contact" target="_blank">Sanjit Ram</a>
+</h2>
