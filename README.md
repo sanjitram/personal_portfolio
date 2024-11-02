@@ -6,17 +6,18 @@ Welcome to my personal portfolio website! This project is designed to showcase m
 
 ## 🖥️ Project Overview
 
-This portfolio site highlights my expertise, past projects, and professional background. It includes the following sections:
+This portfolio site can be used to highlight my web development skills and reach out to my clients.
 
 - **About Me**: An introduction and overview of my skills.
-- **Projects**: A gallery of my notable projects, with clickable icons for detailed descriptions.
-- **Contact**: A section for connecting with me.
+- **Services**: Services and skills that I offer and a gallery of my notable projects, with clickable icons for detailed descriptions.
+- **Contact**: A form for connecting with me through messages sent to my email.
 
 ## 🌟 Features
-
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
+- **Contact form**: Enables my clients to contact me (BUILT USING EmailJs library).
 - **Dark Mode**: Toggle between light and dark themes for a personalized experience.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
 - **Interactive Project Gallery**: Clickable icons lead to project details and external links.
+  
 
 ## 🚀 Tech Stack
 
