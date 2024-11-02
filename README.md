@@ -25,10 +25,4 @@ This portfolio site can be used to highlight my web development skills and reach
 - **Styling**: CSS (supports dark mode)
 - **Deployment**: Hosted on [Vercel](https://vercel.com/)
 
-## 🔧 Installation & Setup
 
-To run this project locally, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/personal-portfolio.git
