@@ -29,7 +29,6 @@
   font-weight: 600;
 }
 
-
 #conform {
   display: flex;
   flex-direction: column;
@@ -63,7 +62,6 @@
 
 
 
-
 #sub {
   margin-top: 1.5em;
   padding: 10px 20px;
@@ -81,7 +79,6 @@
   background-color: #0c576e;
   transform: scale(1.05);
 }
-
 
 @media (max-width: 600px) {
   #contact {
