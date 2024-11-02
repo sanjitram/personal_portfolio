@@ -1,0 +1,23 @@
+.typing-element::after {
+    content: '|';              /* Cursor character */
+    animation: blink 0.7s step-end infinite; /* Blinking effect */
+  }
+  
+  /* CSS for the blinking cursor */
+  @keyframes blink {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 0; }
+    
+  }
+.mee{
+  height: 150px;
+  width: auto;
+  margin-bottom: 50px;
+  border-radius: 60px;
+  border-width: 5px;
+  border: solid;
+  background-color: black;
+
+
+}
+  

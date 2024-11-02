@@ -1,0 +1,128 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Set global font */
+* {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* Basic container styling */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(127, 240, 200);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  
+}
+
+#contact h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 1em;
+  font-weight: 600;
+}
+
+/* Form styling */
+#conform {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#conform label {
+  margin-top: 1em;
+  font-size: 1.1em;
+  color: #555;
+  font-weight: 500;
+}
+
+#conform input,
+#conform textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#conform input:focus,
+#conform textarea:focus {
+  outline: none;
+  border-color: #0d00ff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+
+/* Button styling */
+
+#sub {
+  margin-top: 1.5em;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #52951c;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: background-color 0.3s ease,scale 0.4s;
+  font-weight: 500;
+}
+
+#sub:hover {
+  background-color: #0c576e;
+  transform: scale(1.05);
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  #contact {
+    padding: 15px;
+  }
+
+  #contact h2 {
+    font-size: 1.5em;
+  }
+
+  #conform label {
+    font-size: 1em;
+  }
+
+  #conform input,
+  #conform textarea {
+    font-size: 0.9em;
+  }
+
+  #sub {
+    font-size: 0.9em;
+    padding: 8px 15px;
+  }
+}
+.social-media {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-media h3 {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  color: #333;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #0073b1; /* LinkedIn Blue or adjust for different networks */
+}
+

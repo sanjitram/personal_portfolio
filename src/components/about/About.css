@@ -1,0 +1,62 @@
+/* About.css */
+#{
+    margin: 40px;
+    text-align: center;
+}
+#about {
+    padding: 50px 20px;
+    background-color: rgb(160, 240, 200);
+    color: #333;
+    text-align: center;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .about-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: larger;
+  }
+  
+  .skills-list {
+    text-align: center;
+  }
+  
+  .skills-list h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .skills-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+
+  
