@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
   
     const options = {
-      strings: ["sanjitRam", "a webDeveloper", "available"],
+      strings: ["Sanjit Ram", "a webDeveloper", "available"],
       typeSpeed: 100,  
       backSpeed: 30,    
       backDelay: 3000,  
@@ -32,6 +32,7 @@ const Home = () => {
       </div>
       <h1 className="typing-element"></h1> {}
       <p>Welcome to my personal portfolio website. Check it out and get in touch!</p>
+      <p>Features an Email contact form, Dark mode, Web Hosting, and more...</p>
     </div>
   );
 };
