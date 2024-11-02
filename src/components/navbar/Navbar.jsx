@@ -4,9 +4,15 @@ import webimg from "./navimg.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const handleToggle = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+    document.body.classList.toggle("dark-mode", !isDarkMode);
   };
 
   return (
@@ -20,12 +26,18 @@ const Navbar = () => {
         <a href="#contact">Contact</a>
       </div>
 
-      <button id="toggle" onClick={handleToggle}>
-        ☰
-      </button>
+      <div className="navbar-buttons">
+        <button id="toggle" onClick={handleToggle}>
+          ☰
+        </button>
+        <button className="dark-mode-toggle" onClick={toggleDarkMode}>
+          {isDarkMode ? "☀️" : "🌙"}
+        </button>
+      </div>
     </nav>
   );
 };
 
-export default Navbar;
 
+
+export default Navbar;
