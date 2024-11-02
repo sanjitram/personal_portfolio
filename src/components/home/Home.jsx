@@ -32,7 +32,7 @@ const Home = () => {
       </div>
       <h1 className="typing-element"></h1> {}
       <p>Welcome to my personal portfolio website. Check it out and get in touch!</p>
-      <p>Features an Email contact form, Dark mode, Web Hosting on GitHub Pages, and more...</p>
+      <p>Features an Email contact form, Dark mode, Web Hosting on Vercel, and more...</p>
     </div>
   );
 };
