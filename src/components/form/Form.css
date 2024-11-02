@@ -1,13 +1,13 @@
-/* Import Google Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-/* Set global font */
+
 * {
   font-family: 'Poppins', sans-serif;
   
 }
 
-/* Basic container styling */
+
 #contact {
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@
   font-weight: 600;
 }
 
-/* Form styling */
+
 #conform {
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
 }
 
 
-/* Button styling */
+
 
 #sub {
   margin-top: 1.5em;
@@ -82,7 +82,7 @@
   transform: scale(1.05);
 }
 
-/* Responsive styling */
+
 @media (max-width: 600px) {
   #contact {
     padding: 15px;
@@ -123,6 +123,6 @@
 }
 
 .social-media a:hover {
-  color: #0073b1; /* LinkedIn Blue or adjust for different networks */
+  color: #0073b1; 
 }
 
