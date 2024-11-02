@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import './Home.css'
-import meimg from './me.jpg'
+import meimg from './me2.jpg'
 
 const Home = () => {
   const typedRef = useRef(null); 
