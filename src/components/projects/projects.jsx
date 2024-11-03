@@ -7,7 +7,7 @@ const projectsData = [
     title: 'Personal Portfolio',
     description: 'A front-end web application for a personal portfolio.',
     icon: '💻', 
-    link: 'https://personal-portfolio-six-mu-24.vercel.app/#contact'
+    link: 'https://personal-portfolio-six-mu-24.vercel.app'
   },
   {
     id: 2,
