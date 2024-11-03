@@ -8,6 +8,6 @@ body {
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the image fixed on scroll */
-    background-color: rgb(5, 255, 251);
+    background-color: rgb(3, 0, 65);
     scroll-behavior: smooth;
 }
