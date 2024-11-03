@@ -4,7 +4,7 @@ import './projects.css';
 const projectsData = [
   {
     id: 1,
-    title: 'Personal Portfolio ↓↓↓',
+    title: 'Personal Portfolio ↓↓↓↓',
     description: 'A front-end web application for a personal portfolio.',
     icon: '💻', 
     link: 'https://personal-portfolio-six-mu-24.vercel.app'
