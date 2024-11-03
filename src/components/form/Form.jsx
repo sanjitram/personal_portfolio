@@ -27,6 +27,7 @@ const Form = () => {
   return (
     <div id="contact">
       <h2>Contact me</h2>
+      <h4>Your responses will be sent as an email</h4>
       <form id="conform" ref={form} onSubmit={sendEmail}>
         <label htmlFor="name">Name:</label>
         <input type="text" id="name" name="your_name" required /><br />
