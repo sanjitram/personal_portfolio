@@ -14,7 +14,7 @@ const projectsData = [
     title: 'More',
     description: 'Coming soon...',
     icon: '+', 
-    link: ''
+    link: 'https://blank.org/'
   }
 ];
 
