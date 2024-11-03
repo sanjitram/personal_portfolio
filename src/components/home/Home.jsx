@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
   
     const options = {
-      strings: ["Sanjit Ram", "a webDeveloper", "available"],
+      strings: ["Sanjit Ram", "a Web Developer", "available"],
       typeSpeed: 100,  
       backSpeed: 30,    
       backDelay: 3000,  
