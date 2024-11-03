@@ -28,7 +28,9 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-buttons">
-        
+        <button id="toggle" onClick={handleToggle}>
+          ☰
+        </button>
         <button className="dark-mode-toggle" onClick={toggleDarkMode}>
           {isDarkMode ? "☀️" : "🌙"}
         </button>
