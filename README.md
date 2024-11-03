@@ -2,7 +2,7 @@
 
 [![Portfolio Link](https://img.shields.io/badge/View-Portfolio-blue?style=for-the-badge&logo=vercel)](https://personal-portfolio-six-mu-24.vercel.app/#contact)
 
-Welcome to my personal portfolio website! This project is designed to showcase my skills, projects, and experience in web development. You can explore it [here](https://personal-portfolio-six-mu-24.vercel.app/#contact).
+Welcome to my personal portfolio website! This project is designed to showcase my skills, projects, and experience in web development. You can explore it [here](https://personal-portfolio-six-mu-24.vercel.app).
 
 ## 🖥️ Project Overview
 
