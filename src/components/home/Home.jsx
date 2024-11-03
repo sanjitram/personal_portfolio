@@ -32,7 +32,8 @@ const Home = () => {
       </div>
       <h1 className="typing-element"></h1> {}
       <p>Welcome to my personal portfolio website. Check it out and get in touch!</p>
-      <p>Features an Email contact form, Dark mode, Web Hosting on Vercel, and more...</p>
+      <p>Features an Email contact form, Dark mode, Hosting on Vercel, and more...</p>
+      <a href='https://personal-portfolio-six-mu-24.vercel.app' target="_blank">VISIT PROJECT</a>
     </div>
   );
 };
