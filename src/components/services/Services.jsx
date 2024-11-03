@@ -28,7 +28,7 @@ const Services = () => {
             <span className="service-icon">🔧</span>
             <h3>Backend Development</h3>
             <p>
-              Designing and building scalable server-side applications, RESTful APIs, and databases to manage backend services and ensure data integrity.
+              Designing and building scalable server-side applications, APIs, and databases to manage backend services and ensure data integrity.
             </p>
             <p>
             (Coming Soon)
