@@ -1,12 +1,11 @@
-/* Light Theme Variables */
+
 :root {
     --background-color: rgba(127, 240, 200, 0.745);
     --text-color: #000000;
     --button-bg-color: #007bff;
     --button-text-color: #ffffff;
   }
-  
-  /* Dark Theme Variables */
+
   .dark-theme {
     --background-color: rgba(20, 20, 20, 0.9);
     --text-color: #f5f5f5;
@@ -14,7 +13,7 @@
     --button-text-color: #ffffff;
   }
   
-  /* Apply Theme Variables */
+
   body {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -22,7 +21,6 @@
     scroll-behavior: smooth;
     transition: background-color 0.3s ease, color 0.3s ease;  }
   
-  /* Button Styles */
   button {
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
