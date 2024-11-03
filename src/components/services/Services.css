@@ -1,73 +1,72 @@
 
 .projects-container {
-    text-align: center;
-    padding: 20px;
-    gap: 40px;
-    font-size: 20;
-  }
-  
-  .projects-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .project-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-size: 2rem;
-    color: #333;
-    background-color: #1ad5ed;
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    cursor: pointer;
-    transition: transform 0.3s;
-    size-adjust: 2.5;
-    border: 2px solid rgb(0, 51, 255);
-  }
-  
-  .project-icon .icon {
-    font-size: 2rem; 
-  }
-  
-  .project-icon p {
-    font-size: 0.8rem;
-    margin-top: 5px;
-  }
-  
-  .project-icon:hover {
-    transform: scale(1.2);
-    color: #0073e6;
-  }
-  
-  
-  .project-icon.active {
-    background-color: #0073e6;
-    color: white;
-  }
-  
-  .project-details {
-    margin-top: 20px;
-    background-color: #01eb0c8b;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-  }
-  
-  .project-details h3 {
-    margin: 0 0 10px 0;
-  }
-  
-  .project-details p {
-    margin: 0;
-  }
-  
+  text-align: center;
+  padding: 20px;
+  gap: 40px;
+  font-size: 20;
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 2rem;
+  color: #333;
+  background-color: #1ad5ed;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  size-adjust: 2.5;
+  border: 2px solid rgb(0, 51, 255);
+}
+
+.project-icon .icon {
+  font-size: 2rem; 
+}
+
+.project-icon p {
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.project-icon:hover {
+  transform: scale(1.2);
+  color: #0073e6;
+}
+
+
+.project-icon.active {
+  background-color: #0073e6;
+  color: white;
+}
+
+.project-details {
+  margin-top: 20px;
+  background-color: #01eb0c8b;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.project-details h3 {
+  margin: 0 0 10px 0;
+}
+
+.project-details p {
+  margin: 0;
+}
