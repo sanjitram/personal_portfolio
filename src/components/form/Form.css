@@ -15,7 +15,7 @@
   max-width: 600px;
   margin: auto;
   padding: 20px;
-  background-color: rgb(127, 240, 200);
+  background-color: rgb(127, 227, 240);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
@@ -67,7 +67,7 @@
   padding: 10px 20px;
   font-size: 1em;
   color: #fff;
-  background-color: #52951c;
+  background-color:  #0080a7;
   border: none;
   border-radius: 35px;
   cursor: pointer;
@@ -76,7 +76,7 @@
 }
 
 #sub:hover {
-  background-color: #0c576e;
+  background-color: #080080;
   transform: scale(1.05);
 }
 
