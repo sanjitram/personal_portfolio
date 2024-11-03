@@ -14,7 +14,7 @@ This portfolio site can be used to highlight my web development skills and reach
 
 ## 🌟 Features
 - **Deployment**: Hosted on [Vercel](https://vercel.com/).
-- **Contact form**: Enables my clients to contact me (BUILT USING [EmailJS](https://www.emailjs.com/)).
+- **Contact form**: Enables my clients to contact me (Using [EmailJS](https://www.emailjs.com/)).
 - **Dark Mode**: Toggle between light and dark themes using a button.
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
 - **Interactive Project Gallery**: Clickable icons lead to project details and external links.
