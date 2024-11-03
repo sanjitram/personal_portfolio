@@ -3,11 +3,11 @@
 
 
 body {
-    background-image: url('./s.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-image: url('./s.jpg'); /* Path to your image */
+    background-size: cover; /* Scales the image to cover the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed on scroll */
     background-color: rgba(5, 255, 167, 0.684);
     scroll-behavior: smooth;
 }
