@@ -7,7 +7,7 @@ const projectsData = [
     title: 'Personal Portfolio',
     description: 'A front-end web application for a personal portfolio.',
     icon: '💻', 
-    link: 'https://github.com/sanjitram/personal_portfolio'
+    link: 'https://personal-portfolio-six-mu-24.vercel.app/#contact'
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ const Projects = () => {
           >
             <span className="icon">{project.icon}</span>
             <p>{project.title}</p>
-            <a href={project.link}></a>
+            <a href={project.link} target="_blank">View project</a>
           </div>
         ))}
       </div>
