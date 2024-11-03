@@ -37,7 +37,7 @@ const Projects = () => {
           >
             <span className="icon">{project.icon}</span>
             <p>{project.title}</p>
-            <a href={project.link} target="_blank">View project</a>
+            
           </div>
         ))}
       </div>
@@ -45,6 +45,7 @@ const Projects = () => {
         <div className="project-details">
           <h3>{selectedProject.title}</h3>
           <p>{selectedProject.description}</p>
+          <a href={selectedProject.link} target="_blank">VIEW PROJECT</a>
         </div>
       )}
     </div>
