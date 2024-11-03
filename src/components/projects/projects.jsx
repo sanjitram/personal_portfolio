@@ -14,6 +14,7 @@ const projectsData = [
     title: 'More',
     description: 'Coming soon...',
     icon: '+', 
+    link: ''
   }
 ];
 
