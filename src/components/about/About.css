@@ -1,60 +1,69 @@
-
-#{
-    margin: 40px;
-    text-align: center;
+# {
+  margin: 40px;
+  text-align: center;
+  font-weight: bold;
 }
-#about {
-    padding: 50px 20px;
-    text-align: center;
-  }
-  
-  .about-container {
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .about-container h2 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  .about-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .about-text {
-    max-width: 600px;
-    text-align: left;
-    line-height: 1.6;
-    font-size: larger;
-  }
-  
-  .skills-list {
-    text-align: center;
-  }
-  
-  .skills-list h3 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  .skills-list ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .skills-list li {
-    background-color: #007bff;
-    color: #fff;
-    padding: 8px 12px;
-    margin: 5px 0;
-    border-radius: 5px;
-    font-size: 1em;
-  }
-  
 
-  
+#about {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.6;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.skills-list {
+  text-align: center;
+}
+
+.skills-list h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.skills-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #222b62;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 25px;
+  font-size: 1em;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 2); 
+}
+
+.skills-list li:hover {
+  transform: scale(1.15);
+  background-color: #01d5ff; 
+  color: #1b0505; 
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+}
