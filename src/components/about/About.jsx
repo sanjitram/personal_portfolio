@@ -21,12 +21,14 @@ const About = () => {
           </div>
 
           <div className="skills-list">
-            <h3> My Skills</h3>
+            <h3>Tech Stack</h3>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
-              <li>Bootstrap</li>
               <li>ReactJS</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>Python</li>
             </ul>
           </div>
         </div>
