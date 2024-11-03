@@ -1,41 +1,55 @@
 import React, { useState } from 'react';
-import "./Navbar.css";
-import webimg from "./navimg.png";
+import './projects.css';
 
-const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(false);
+const projectsData = [
+  {
+    id: 1,
+    title: 'Personal Portfolio ↓↓↓',
+    description: 'A front-end web application for a personal portfolio.',
+    icon: '💻', 
+    link: 'https://personal-portfolio-six-mu-24.vercel.app'
+  },
+  {
+    id: 2,
+    title: 'More',
+    description: 'Coming soon...',
+    icon: '+', 
+    link: 'https://blank.org/'
+  }
+];
 
-  const handleToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+const Projects = () => {
+  const [selectedProject, setSelectedProject] = useState(null);
 
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-    document.body.classList.toggle("dark-mode", !isDarkMode);
+  const handleProjectClick = (project) => {
+    setSelectedProject(selectedProject === project ? null : project);
   };
 
   return (
-    <nav className="navbar">
-      <img src={webimg} className="navim" alt="Logo" />
-
-      <div className={`navlinks ${isMenuOpen ? 'active' : ''}`}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+    <div className="projects-container">
+      <h2>My Projects</h2>
+      <div className="projects-grid">
+        {projectsData.map((project) => (
+          <div
+            key={project.id}
+            className={`project-icon ${selectedProject === project ? 'active' : ''}`}
+            onClick={() => handleProjectClick(project)}
+          >
+            <span className="icon">{project.icon}</span>
+            <p>{project.title}</p>
+            
+          </div>
+        ))}
       </div>
-
-      <div className="navbar-buttons">
-        
-        <button className="dark-mode-toggle" onClick={toggleDarkMode}>
-          {isDarkMode ? "☀️" : "🌙"}
-        </button>
-      </div>
-    </nav>
+      {selectedProject && (
+        <div className="project-details">
+          <h3>{selectedProject.title}</h3>
+          <p>{selectedProject.description}</p>
+          <a href={selectedProject.link} target="_blank">VISIT PROJECT</a>
+        </div>
+      )}
+    </div>
   );
 };
 
-
-
-export default Navbar;
+export default Projects;
