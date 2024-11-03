@@ -22,7 +22,7 @@ This portfolio site can be used to highlight my web development skills and reach
 
 ## 🚀 Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript, React
+- **Frontend**: HTML, CSS, ReactJS
 - **Styling**: CSS (supports dark mode)
 - **Deployment**: Hosted on [Vercel](https://vercel.com/)
 
