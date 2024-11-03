@@ -20,7 +20,7 @@ const Navbar = () => {
       <img src={webimg} className="navim" alt="Logo" />
 
       <div className={`navlinks ${isMenuOpen ? 'active' : ''}`}>
-        <a></a>
+        
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Skills</a>
