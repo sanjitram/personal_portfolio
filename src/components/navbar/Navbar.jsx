@@ -22,14 +22,12 @@ const Navbar = () => {
       <div className={`navlinks ${isMenuOpen ? 'active' : ''}`}>
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#services">Skills</a>
+        <a href="#services">Services</a>
         <a href="#contact">Contact</a>
       </div>
 
       <div className="navbar-buttons">
-        <button id="toggle" onClick={handleToggle}>
-          ☰
-        </button>
+        
         <button className="dark-mode-toggle" onClick={toggleDarkMode}>
           {isDarkMode ? "☀️" : "🌙"}
         </button>
