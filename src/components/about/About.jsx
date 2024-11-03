@@ -13,7 +13,7 @@ const About = () => {
               Hello! I’m Sanjit Ram, a computer science undergraduate at IIT (ISM) Dhanbad who is a passionate Web Developer with a knack for building front-end applications. With a strong foundation in front-end development, I created this personal portfolio website by myself.
             </p>
             <p>
-              In this project I have worked with HTML, CSS and ReactJS. I’m constantly learning new things to stay updated with the latest advancements in technology.
+              In this project I have worked with HTML, CSS and Javascript. I’m constantly learning new things to stay updated with the latest advancements in technology.
             </p>
             <p>
                 This particular webpage uses ReactJS to make it responsive. I used the library EmailJS to enable the client to contact me through email.
@@ -21,7 +21,7 @@ const About = () => {
           </div>
 
           <div className="skills-list">
-            <h3>Tech Stack</h3>
+            <h3> Tech Stack</h3>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
