@@ -51,7 +51,7 @@ const Services = () => {
                   <span className="service-icon">🔧</span>
                   <h1>Backend Development</h1>
                   
-                  <h5>(Coming Soon)</h5>
+          
                 </div>
                 <div className="service-card-back">
                 
