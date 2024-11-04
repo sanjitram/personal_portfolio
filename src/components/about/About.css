@@ -1,110 +1,42 @@
+import React from 'react';
+import { FaHtml5, FaCss3Alt, FaReact } from 'react-icons/fa';
+import { SiC, SiCplusplus, SiPython } from 'react-icons/si';
+import './About.css';
 
-# {
-  margin: 40px;
-  text-align: center;
-  font-weight: bold;
-  color: black;
-}
+const About = () => {
+  return (
+    <section id="about">
+      <div className="about-container">
+        <h2>About Me</h2>
+        
+        <div className="about-content">
+          <div className="about-text">
+            <p>
+              Hello! I’m Sanjit Ram, a computer science undergraduate at IIT (ISM) Dhanbad who is a passionate Web Developer with a knack for building front-end applications. With a strong foundation in front-end development, I created this personal portfolio website by myself.
+            </p>
+            <p>
+              In this project I have worked with HTML, CSS and Javascript. I’m constantly learning new things to stay updated with the latest advancements in technology.
+            </p>
+            <p>
+              This particular webpage uses ReactJS to make it responsive. I used the library EmailJS to enable the client to contact me through email.
+            </p>
+          </div>
 
-#about {
-  padding: 50px 20px;
-  text-align: center;
-  color: black;
-}
+          <div className="skills-list">
+            <h3>Tech Stack</h3>
+            <ul>
+              <li><FaHtml5 className="icon-html" /> HTML</li>
+              <li><FaCss3Alt className="icon-css" /> CSS</li>
+              <li><FaReact className="icon-react" /> ReactJS</li>
+              <li><SiC className="icon-c" /> C</li>
+              <li><SiCplusplus className="icon-cplusplus" /> C++</li>
+              <li><SiPython className="icon-python" /> Python</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-.about-container {
-  max-width: 800px;
-  margin: auto;
-  text-align: center;
-}
-
-.about-container h2 {
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
-}
-
-.about-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.about-text {
-  max-width: 600px;
-  text-align: left;
-  line-height: 1.6;
-  font-size: larger;
-  font-weight: 500;
-}
-
-.skills-list {
-  text-align: center;
-}
-
-.skills-list h3 {
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
-}
-
-.skills-list ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.skills-list li {
-  display: flex;
-  align-items: center; /* Aligns icon and text vertically */
-  background-color: #222b62;
-  color: #fff;
-  padding: 8px 12px;
-  margin: 5px 0;
-  border-radius: 25px;
-  font-size: 1em;
-  transition: transform 0.2s, background-color 0.2s, color 0.2s, box-shadow 0.2s;
-  cursor: pointer;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.skills-list li:hover {
-  transform: scale(1.15);
-  background-color: #01d5ff;
-  color: #1b0505;
-  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
-}
-
-/* Icon styling */
-.icon-html {
-  color: #e34c26; /* HTML5 Orange */
-}
-
-.icon-css {
-  color: #264de4; /* CSS3 Blue */
-}
-
-.icon-react {
-  color: #61dafb; /* React Blue */
-}
-
-.icon-c {
-  color: #555555; /* C Gray */
-}
-
-.icon-cplusplus {
-  color: #00599c; /* C++ Blue */
-}
-
-.icon-python {
-  color: #306998; /* Python Blue */
-}
-
-/* Additional styling for icons inside list items */
-.skills-list li .icon-html,
-.skills-list li .icon-css,
-.skills-list li .icon-react,
-.skills-list li .icon-c,
-.skills-list li .icon-cplusplus,
-.skills-list li .icon-python {
-  margin-right: 8px; /* Adds space between the icon and text */
-  font-size: 1.2em; /* Adjust icon size if necessary */
-}
+export default About;
