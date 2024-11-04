@@ -10,4 +10,5 @@ body {
     background-attachment: fixed; /* Keeps the image fixed on scroll */
     background-color: rgb(3, 0, 65);
     scroll-behavior: smooth;
+    color: rgb(0, 0, 0);
 }
