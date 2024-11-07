@@ -25,6 +25,7 @@ const Form = () => {
   };
 
   return (
+    <div id="stu">
     <div id="contact">
       <h2>Contact me</h2>
       <h3>Your responses will be sent as an email.</h3>
@@ -56,6 +57,7 @@ const Form = () => {
         
         
       </div>
+    </div>
     </div>
   );
 }
