@@ -90,8 +90,11 @@ body.dark-mode #toggle {
 }
 
 body.dark-mode .about {
-    background-color: #1e1e1e; 
-    color: #ffffff;           
+    background-image: url('./dadesk.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;  
+    
 }
 
 body.dark-mode .services {
