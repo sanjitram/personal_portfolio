@@ -1,18 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
 
 * {
   font-family: 'Poppins', sans-serif;
-  
 }
+
+/* Default Light Mode Styles */
 #stu {
   background-image: url('./h.jpg'); /* Path to your image */
-    background-size: cover; /* Scales the image to cover the entire background */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed;
-    padding: 30px;}
+  background-size: cover; /* Scales the image to cover the entire background */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed;
+  padding: 30px;
+}
 
 #contact {
   display: flex;
@@ -21,12 +21,10 @@
   max-width: 600px;
   margin: auto;
   padding: 20px;
-  background-color: rgb(127, 227, 240);
+  background-color: rgb(127, 227, 240); /* Light background color */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
-  
-  
 }
 
 #contact h2 {
@@ -67,18 +65,16 @@
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
 }
 
-
-
 #sub {
   margin-top: 1.5em;
   padding: 10px 20px;
   font-size: 1em;
   color: #fff;
-  background-color:  #0080a7;
+  background-color: #0080a7;
   border: none;
   border-radius: 35px;
   cursor: pointer;
-  transition: background-color 0.3s ease,scale 0.4s;
+  transition: background-color 0.3s ease, scale 0.4s;
   font-weight: 500;
 }
 
@@ -110,6 +106,7 @@
     padding: 8px 15px;
   }
 }
+
 .social-media {
   margin-top: 20px;
   text-align: center;
@@ -127,6 +124,51 @@
 }
 
 .social-media a:hover {
-  color: #0073b1; 
+  color: #0073b1;
 }
 
+/* Dark Mode Styles */
+body.dark-mode #stu {
+  background-image: url('./h.jpg'); /* Keep the same image for dark mode */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body.dark-mode #contact {
+  background-color: #333; /* Dark background for the contact section */
+  color: #fff; /* White text for the contact section */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Light shadow for dark mode */
+}
+
+body.dark-mode #contact h2 {
+  color: #fff; /* White heading text */
+}
+
+body.dark-mode #conform label {
+  color: #ddd; /* Lighter label color for dark mode */
+}
+
+body.dark-mode #conform input,
+body.dark-mode #conform textarea {
+  background-color: #555; /* Dark background for input fields */
+  color: #fff; /* White text for input fields */
+  border: 1px solid #444; /* Darker border for inputs */
+}
+
+body.dark-mode #sub {
+  background-color: #005f6b; /* Button background for dark mode */
+}
+
+body.dark-mode #sub:hover {
+  background-color: #003f4b; /* Darker button hover for dark mode */
+}
+
+body.dark-mode .social-media a {
+  color: #fff; /* White color for social media icons */
+}
+
+body.dark-mode .social-media a:hover {
+  color: #01d5ff; /* Highlighted color for social media icons in dark mode */
+}
