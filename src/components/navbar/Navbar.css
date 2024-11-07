@@ -1,120 +1,121 @@
-/* Navbar.css */
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #010200; /* Dark background for navbar */
-    color: white;
-    position: fixed;
-    width: 100%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #010200; 
+  color: white;
+  position: fixed;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 10000;
 }
 
 .navim {
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 10px;
 }
 
 #toggle {
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    display: none; /* Displayed in responsive mode */
-    border-radius: 80px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white; 
+  cursor: pointer;
+  padding: 10px;
+  display: none;
+  border-radius: 80px;
 }
 
 .navlinks {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .navlinks a {
-    color: rgb(4, 249, 236); /* Link color */
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
+  color: rgb(4, 249, 236);
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease; 
 }
 
 .navlinks a:hover {
-    color: #ffcc00;
+  color: #ffcc00; 
 }
 
 .navlinks a:active {
-    color: #ff4800;
+  color: #ff4800; 
 }
 
-/* Dark mode specific styles for navbar */
+body.dark-mode {
+  background-color: black; 
+  color: #ffffff;
+}
+
 body.dark-mode .navbar {
-    background-color: #1e1e1e;
-    color: #ffffff;
+  background-color: #1e1e1e; 
 }
 
 body.dark-mode .navlinks a {
-    color: #0aecf4;
+  color: #0aecf4; 
 }
 
 body.dark-mode .navlinks a:hover {
-    color: #ffcc00;
+  color: #ffcc00; 
 }
 
 body.dark-mode .navlinks a:active {
-    color: #ff5e00;
+  color: #ff5e00; 
 }
 
 body.dark-mode #toggle {
-    color: white;
+  color: white; 
 }
 
-/* Dark mode toggle button */
 .dark-mode-toggle {
-    border-radius: 25px;
-    height: 40px;
-    width: 40px;
-    border: solid;
-    border-color: #0aecf4;
-    border-width: 5px;
-    background-color: #ff480000;
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  border: solid;
+  border-color: #0aecf4;
+  border-width: 5px;
+  background-color: #ff480000;
 }
-
 .dark-mode-toggle:hover {
-    cursor: pointer;
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
-    .navlinks {
-        position: fixed;
-        top: 0;
-        left: -100%;
-        width: 200px;
-        height: 100%;
-        background-color: #333;
-        flex-direction: column;
-        padding-top: 60px;
-        gap: 15px;
-        transition: left 0.3s ease;
-    }
+  .navlinks {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    flex-direction: column;
+    padding-top: 60px;
+    gap: 15px;
+    transition: left 0.3s ease;
+  }
 
-    .navlinks.active {
-        left: 0;
-    }
+  .navlinks.active {
+    left: 0;
+  }
 
-    #toggle {
-        display: block;
-    }
+  #toggle {
+    display: block;
+  }
 }
