@@ -6,11 +6,7 @@
 }
 
 
-body {
-    background-image: url('../../../public/s.jpg'); 
-    background-size: cover;
-    background-position: center;
-}
+
 
 .navbar {
     display: flex;
