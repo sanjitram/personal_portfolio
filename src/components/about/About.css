@@ -1,55 +1,136 @@
-/* about.css */
-
-/* Default light mode styles for the About section */
-.about-container {
-    background-color: #ffffff; /* White background for light mode */
-    color: #000000; /* Black text for light mode */
-    padding: 50px;
-    text-align: center;
-    transition: background-color 0.3s ease, color 0.3s ease;
+/* General styling for the About section */
+# {
+  margin: 40px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
 }
 
-/* Default text and heading colors */
-.about-container h2, .about-container p {
-    color: inherit;
+#about {
+  padding: 50px 20px;
+  text-align: center;
+  color: black;
+  background-image: url('./sky4.jpg'); /* Path to your image */
+  background-size: cover; /* Scales the image to cover the entire background */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-attachment: fixed;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: left;
+  line-height: 1.6;
+  font-size: larger;
+  font-weight: 500;
 }
 
 .skills-list {
-    margin-top: 20px;
+  text-align: center;
+}
+
+.skills-list h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 .skills-list ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .skills-list li {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-    font-size: 18px;
+  display: flex;
+  align-items: center; /* Aligns icon and text vertically */
+  justify-content: center; /* Centers icon and text horizontally */
+  background-color: #222b62;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 25px;
+  font-size: 1em;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
-.skills-list .icon-html,
-.skills-list .icon-css,
-.skills-list .icon-react,
-.skills-list .icon-c,
-.skills-list .icon-cplusplus,
-.skills-list .icon-python {
-    margin-right: 10px;
+.skills-list li:hover {
+  transform: scale(1.15);
+  background-color: #01d5ff; 
+  color: #1b0505; 
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+/* Icon styling */
+.icon-html {
+  color: #e34c26; /* HTML5 Orange */
+}
+
+.icon-css {
+  color: #264de4; /* CSS3 Blue */
+}
+
+.icon-react {
+  color: #61dafb; /* React Blue */
+}
+
+.icon-c {
+  color: #555555; /* C Gray */
+}
+
+.icon-cplusplus {
+  color: #00599c; /* C++ Blue */
+}
+
+.icon-python {
+  color: #306998; /* Python Blue */
+}
+
+/* Additional styling for icons inside list items */
+.skills-list li .icon-html,
+.skills-list li .icon-css,
+.skills-list li .icon-react,
+.skills-list li .icon-c,
+.skills-list li .icon-cplusplus,
+.skills-list li .icon-python {
+  margin-right: 8px; /* Adds space between the icon and text */
+  font-size: 1.2em; /* Adjust icon size if necessary */
 }
 
 /* Dark mode styles for the About section */
-body.dark-mode .about-container {
-    background-color: black; /* Black background for dark mode */
-    color: #ffffff; /* White text for dark mode */
+body.dark-mode #about {
+  background-color: #121212; /* Dark background for dark mode */
+  color: #ffffff; /* White text for dark mode */
 }
 
-body.dark-mode .about-container h2, 
-body.dark-mode .about-container p {
-    color: inherit; /* White text for dark mode */
+body.dark-mode .about-container {
+  background-color: #222222; /* Darker background for the container */
 }
 
 body.dark-mode .skills-list li {
-    color: inherit; /* White text for skills list */
+  background-color: #333333; /* Darker background for list items */
+  color: #ffffff; /* White text in dark mode */
+}
+
+body.dark-mode .skills-list li:hover {
+  background-color: #01d5ff; /* Keeps hover effect for dark mode */
+  color: #1b0505; 
 }
