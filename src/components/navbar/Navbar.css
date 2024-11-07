@@ -89,25 +89,7 @@ body.dark-mode #toggle {
     color: white;             
 }
 
-body.dark-mode .about {
-    background-image: url('./dadesk.jpg'); 
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;  
-    
-}
 
-body.dark-mode .services {
-    background-color: #1e1e1e; 
-    color: #ffffff;     
-    background-image: inherit;
-}
-body.dark-mode .contact {
-    background-image: url('./dadesk.jpg'); 
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;               
-}
 
 .dark-mode-toggle {
     border-radius: 25px;
