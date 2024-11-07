@@ -1,14 +1,20 @@
+/* styles.css */
 
-
-
-
+/* Default light mode styles */
 body {
-    background-image: url('./s.jpg'); /* Path to your image */
-    background-size: cover; /* Scales the image to cover the entire background */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Keeps the image fixed on scroll */
-    background-color: rgb(3, 0, 65);
+    background-image: url('./s.jpg'); /* Light mode background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(3, 0, 65); /* Fallback background color */
     scroll-behavior: smooth;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); /* Text color for light mode */
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-image: none; /* Removes the image in dark mode */
+    background-color: black; /* Solid black background */
+    color: #ffffff; /* Text color for dark mode */
 }
