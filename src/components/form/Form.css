@@ -7,7 +7,7 @@
   
 }
 #stu {
-  background-image: url('./car.jpg'); /* Path to your image */
+  background-image: url('./h.jpg'); /* Path to your image */
     background-size: cover; /* Scales the image to cover the entire background */
     background-position: center; /* Centers the background image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
