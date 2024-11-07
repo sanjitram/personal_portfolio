@@ -101,13 +101,17 @@ body.dark-mode .services {
 
 .dark-mode-toggle {
     border-radius: 25px;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
+    border: solid;
+    border-color: #0aecf4;
+    border-width: 5px;
+    background-color: #ff480000;
 }
 .dark-mode-toggle:hover {
     border-radius: 25px;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     cursor: pointer;
 }
 @media (max-width: 768px) {
