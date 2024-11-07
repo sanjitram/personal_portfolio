@@ -1,20 +1,16 @@
-/* styles.css */
 
-/* Default light mode styles */
 body {
-    background-image: url('./s.jpg'); /* Light mode background image */
+    background-image: url('./s.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgb(3, 0, 65); /* Fallback background color */
+    background-color: rgb(3, 0, 65); 
     scroll-behavior: smooth;
-    color: rgb(0, 0, 0); /* Text color for light mode */
+    color: rgb(0, 0, 0); 
 }
-
-/* Dark mode styles */
 body.dark-mode {
-    background-image: none; /* Removes the image in dark mode */
-    background-color: black; /* Solid black background */
-    color: #ffffff; /* Text color for dark mode */
+    background-image: none;
+    background-color: black; 
+    color: #ffffff; 
 }
