@@ -10,6 +10,11 @@
   padding: 50px 20px;
   text-align: center;
   color: black;
+  background-image: url('./sky4.jpg'); /* Path to your image */
+    background-size: cover; /* Scales the image to cover the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed;
 }
 
 .about-container {
