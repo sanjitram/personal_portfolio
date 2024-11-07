@@ -19,6 +19,7 @@
     width: 100%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    z-index: 10000;
 }
 
 .navim {
