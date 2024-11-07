@@ -117,7 +117,8 @@
 
 /* Dark mode styles for the About section */
 body.dark-mode #about {
-  background-color: #121212; /* Dark background for dark mode */
+  background-color: black;
+  background-image: none;/* Dark background for dark mode */
   color: #ffffff; /* White text for dark mode */
 }
 
