@@ -6,7 +6,7 @@
 
 /* Default Light Mode Styles */
 #stu {
-  background-image: url('./h.jpg'); /* Path to your image */
+  background-image: url('./h.jpg'); /* Light background image */
   background-size: cover; /* Scales the image to cover the entire background */
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -129,11 +129,8 @@
 
 /* Dark Mode Styles */
 body.dark-mode #stu {
-  background-image: url('./h.jpg'); /* Keep the same image for dark mode */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: black; /* Black background for dark mode */
+  background-image: none; /* Remove background image in dark mode */
 }
 
 body.dark-mode #contact {
