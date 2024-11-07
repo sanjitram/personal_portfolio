@@ -4,12 +4,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* Default Light Mode Styles */
+
 #stu {
-  background-image: url('./h.jpg'); /* Light background image */
-  background-size: cover; /* Scales the image to cover the entire background */
-  background-position: center; /* Centers the background image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-image: url('./h.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   padding: 30px;
 }
@@ -21,7 +21,7 @@
   max-width: 600px;
   margin: auto;
   padding: 20px;
-  background-color: rgb(127, 227, 240); /* Light background color */
+  background-color: rgb(127, 227, 240); 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
@@ -127,43 +127,43 @@
   color: #0073b1;
 }
 
-/* Dark Mode Styles */
+
 body.dark-mode #stu {
-  background-color: black; /* Black background for dark mode */
-  background-image: none; /* Remove background image in dark mode */
+  background-color: black; 
+  background-image: none;
 }
 
 body.dark-mode #contact {
-  background-color: #333; /* Dark background for the contact section */
-  color: #fff; /* White text for the contact section */
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Light shadow for dark mode */
+  background-color: #333; 
+  color: #fff; 
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); 
 }
 
 body.dark-mode #contact h2 {
-  color: #fff; /* White heading text */
+  color: #fff; 
 }
 
 body.dark-mode #conform label {
-  color: #ddd; /* Lighter label color for dark mode */
+  color: #ddd;
 }
 
 body.dark-mode #conform input,
 body.dark-mode #conform textarea {
-  background-color: #555; /* Dark background for input fields */
-  color: #fff; /* White text for input fields */
-  border: 1px solid #444; /* Darker border for inputs */
+  background-color: #555;
+  color: #fff; 
+  border: 1px solid #444; 
 }
 
 body.dark-mode #sub {
-  background-color: #005f6b; /* Button background for dark mode */
+  background-color: #005f6b; 
 }
 
 body.dark-mode #sub:hover {
-  background-color: #003f4b; /* Darker button hover for dark mode */
+  background-color: #003f4b; 
 }
 
 body.dark-mode .social-media a {
-  color: #fff; /* White color for social media icons */
+  color: #fff; 
 }
 
 body.dark-mode .social-media a:hover {
