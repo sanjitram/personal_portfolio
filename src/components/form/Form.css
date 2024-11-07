@@ -6,7 +6,12 @@
   font-family: 'Poppins', sans-serif;
   
 }
-
+#stu {
+  background-image: url('./car.jpg'); /* Path to your image */
+    background-size: cover; /* Scales the image to cover the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed;}
 
 #contact {
   display: flex;
@@ -19,11 +24,6 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
-  background-image: url('./car.jpg'); /* Path to your image */
-    background-size: cover; /* Scales the image to cover the entire background */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed;
   
 }
 
