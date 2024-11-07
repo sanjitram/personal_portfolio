@@ -1,4 +1,4 @@
-/* General styling for the About section */
+
 # {
   margin: 40px;
   text-align: center;
@@ -10,10 +10,10 @@
   padding: 50px 20px;
   text-align: center;
   color: black;
-  background-image: url('./sky4.jpg'); /* Path to your image */
-  background-size: cover; /* Scales the image to cover the entire background */
-  background-position: center; /* Centers the background image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-image: url('./sky4.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
   background-attachment: fixed;
 }
 
@@ -59,8 +59,8 @@
 
 .skills-list li {
   display: flex;
-  align-items: center; /* Aligns icon and text vertically */
-  justify-content: center; /* Centers icon and text horizontally */
+  align-items: center; 
+  justify-content: center; 
   background-color: #222b62;
   color: #fff;
   padding: 8px 12px;
@@ -104,34 +104,34 @@
   color: #306998; /* Python Blue */
 }
 
-/* Additional styling for icons inside list items */
+
 .skills-list li .icon-html,
 .skills-list li .icon-css,
 .skills-list li .icon-react,
 .skills-list li .icon-c,
 .skills-list li .icon-cplusplus,
 .skills-list li .icon-python {
-  margin-right: 8px; /* Adds space between the icon and text */
-  font-size: 1.2em; /* Adjust icon size if necessary */
+  margin-right: 8px; 
+  font-size: 1.2em; 
 }
 
-/* Dark mode styles for the About section */
+
 body.dark-mode #about {
   background-color: black;
-  background-image: none;/* Dark background for dark mode */
-  color: #ffffff; /* White text for dark mode */
+  background-image: none;
+  color: #ffffff; 
 }
 
 body.dark-mode .about-container {
-  background-color: #222222; /* Darker background for the container */
+  background-color: #222222; 
 }
 
 body.dark-mode .skills-list li {
-  background-color: #333333; /* Darker background for list items */
-  color: #ffffff; /* White text in dark mode */
+  background-color: #333333; 
+  color: #ffffff; 
 }
 
 body.dark-mode .skills-list li:hover {
-  background-color: #01d5ff; /* Keeps hover effect for dark mode */
+  background-color: #01d5ff; 
   color: #1b0505; 
 }
