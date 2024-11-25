@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <div className="homee" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100vh', justifyContent: 'center' }}>
-      <img src={meimg} className="mee" alt="face" />
+      <img src={} className="mee" alt="face" />
       <div>
         <h1>I'm</h1>
       </div>
